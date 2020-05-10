@@ -59,9 +59,9 @@ def extras_require():
     return extras
 
 
-setup(name='odo',
-      version=versioneer.get_version(),
-      cmdclass=versioneer.get_cmdclass(),
+setup(name='sangreal-odo',
+    #   version=versioneer.get_version(),
+      version='0.0.5',
       description='Data migration utilities',
       url='https://github.com/blaze/odo',
       author='Blaze development team',
